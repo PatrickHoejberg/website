@@ -1,0 +1,77 @@
+@media screen and (max-width: 1200px) {
+  #desktopnav {
+    display: none;
+  }
+  #navmenu {
+    display: flex;
+  }
+  #profil {
+    flex-direction: column;
+  }
+  .profilbillede {
+    width: 300px;
+    height: auto;
+  }
+  .section-container {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+  }
+  .about-con {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .details-con {
+    width: 90%;
+    padding: 10px;
+  }
+  .about-details-con {
+    width: 100%;
+  }
+
+  #About {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-billede {
+    width: 50vw;
+  }
+  section {
+    margin: 0;
+  }
+  .text-container {
+    padding-bottom: 200px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #Projects {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pbottom {
+    margin-bottom: 200px;
+  }
+
+  .contact-info-upper-con {
+    flex-direction: column;
+  }
+
+  .m-column {
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+}
