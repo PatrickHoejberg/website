@@ -433,7 +433,7 @@ footer p {
 /* Viewhook*/
 .showinview {
   animation: slidein;
-  animation-timeline: view(block 80% 10%);
+  animation-timeline: view(block 80% 0%);
 }
 
 @keyframes slidein {
